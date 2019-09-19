@@ -1,0 +1,11 @@
+1.Zadatak
+-------------------------------------------------
+100/100
+
+2.Zadatak
+-------------------------------------------------
+94/100
+
+6. Ne treba da grupises podatke (ne vraca ti neke koji imaju ispunjene uslove)
+7.Isto (plus da se doda NOT NULL)
+

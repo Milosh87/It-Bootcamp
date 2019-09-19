@@ -1,0 +1,4 @@
+1.Zadatak
+-------------------------------------------------
+95/100
+Sve klase nasledjuju klasu Object koja sadrzi toString,pa nema potrebe da navodimo toString u apstraktnoj klasi Izraz

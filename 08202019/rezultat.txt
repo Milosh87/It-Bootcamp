@@ -1,0 +1,5 @@
+1.Zadatak
+-------------------------------------------------
+Poeni: 95/100
+Primedbe/Komentari: Super,a sto se tice onog niza bez null-ova,tako je i trebalo :D
+Nisi pisao private/public na nekim mestima,to ne bi trebalo da se zaboravlja (za niz ocena,i za neke metode)
