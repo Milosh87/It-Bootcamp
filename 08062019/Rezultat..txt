@@ -1,0 +1,29 @@
+1.Zadatak
+-------------------------------------------------
+Poeni: 100/100
+Primedbe/Komentari: Nema
+
+2.Zadatak
+-------------------------------------------------
+Poeni: 100/100
+Primedbe/Komentari: Nema
+
+3.Zadatak 
+-------------------------------------------------
+Poeni: 100/100
+Primedbe/Komentari: Nema
+
+4.Zadatak
+-------------------------------------------------
+Poeni: 100/100
+Primedbe/Komentari: Nema
+
+5.Zadatak 
+-------------------------------------------------
+Poeni: 95/100
+Primedbe/Komentari: Dosta koda se ponavlja,uz malo sredjivanja moze da se smesti u funkciju
+
+6.Zadatak 
+-------------------------------------------------
+Poeni: 100/100
+Primedbe/Komentari: Odlicno

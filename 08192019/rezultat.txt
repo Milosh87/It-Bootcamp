@@ -1,0 +1,4 @@
+1.Zadatak
+-------------------------------------------------
+Poeni: 100/100
+Primedbe/Komentari: Kod toString() nemas potrebe da zoves get metode,mozes direkto pristupiti poljima

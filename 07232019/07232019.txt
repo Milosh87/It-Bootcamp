@@ -1,0 +1,151 @@
+Spisak keywordova koji se koriste u Javi:
+
+abstract
+assert
+boolean
+break
+byte
+case
+catch
+char
+class
+continue
+default
+do
+double
+else
+enum
+exports
+extends
+final
+finally
+float
+for
+if
+implements
+import
+instanceof
+int
+interface
+long
+module
+native
+new
+package
+private
+protected
+public
+
+Opis nekih keywordova:
+
+1. if - koristi se za pravljenje conditional statementa (uslovnih iskaza):
+
+int x = 55;
+
+if (x > 10) {
+  System.out.println("Broj je veci od 10");   // ovo ce se print, jer je x > 10 = true
+}
+
+2. for - koristi se za kreiranje for petlje:
+
+for (int i = 0; i < 5; i++) {
+  System.out.print(i);        //printovace se 01234
+}
+
+3. else - koristi se zajedno sa if, u slucaju kada ostali uslovni iskazi imaju false vrednost, onda se izvrsava kod koji se nalazi u okviru else statementa.
+
+int x = 52;
+
+if (x < 0) {
+  System.out.println("Broj ima negativnu vrednost.")  // false, ovo se nece print
+}
+else {
+  System.out.println("Broj ima pozitivnu vrednost."); // ovo ce se print, jer je if statement false
+}
+
+
+4. break - koristimo ga kada zelimo da  izadjemo iz petlje pri odredjenom uslovu:
+
+for (int i = 0; i < 10; i++) {
+  if (i == 5) {
+  break;
+  }
+  System.out.print(i);      //printovace 01234, kada je i = 5 break se izvrsava i petlja se napusta.
+}
+
+5. continue - koristi se da se preskoci jedna iteracija u petlji:
+
+for (int i = 0; i < 10; i++) {
+  if (i == 5) {
+  break;
+  }
+  System.out.print(i);      //printovace 012346789, kada je i = 5 continue se izvrsava i preskace se iteracija kad je i = 5.
+}
+
+6. boolen - tip podataka koji moze imati true ili false vrednost:
+
+boolean Yes = true;
+boolean No = false;
+System.out.println(Yes);  // outputs true
+System.out.println(No);   // outputs false
+
+7. switch - koristi se kada zelimo da izaberemo jedan od mnogih code blokova:
+
+int number = 2;
+
+switch(number) {
+  case 0:
+    System.out.println("nula");
+    break;
+  case 1:
+    System.out.println("jedan");
+    break;
+  case 2:                       // ovaj code block se izvrsava, i printovace se dva
+    System.out.println("dva");
+    break;
+  case 3:
+    System.out.println("tri");
+    break;
+  case 4:
+    System.out.println("cetiri");
+    break;
+}
+
+8. case - oznacava code block u switch statementu
+
+switch(number) {
+  case 0:
+    System.out.println("nula");       // codeblock u okviru case 0:
+    break;
+
+
+
+Kako se koristi komanda System.out.print()?
+
+System.out.print() komanda printuje tekst u istoj liniji konzole:
+
+System.out.print("Milos");
+System.out.print("Mijatovic");
+
+// printovace MilosMijatovic
+
+Kako se koristi komanda System.out.printf();
+
+System.out.printf(format, args) - koristimo da lakse formatiramo output:
+
+int x = 5;
+char y = 'm';
+
+System.out.printf("X ima vrednost %d, a y ima vrednost %c", x, y);
+
+
+%s – stringove
+%d – cele brojeve
+%f – decimalne brojeve
+%t– datum / vreme
+%c - malo slovo
+%C - veliko slovo
+%n - ako zelimo da podelimo string u vise redova
+%b - boolean
+%.2f - na dve decimale
+
